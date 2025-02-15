@@ -1,0 +1,37 @@
+.bigdiv{
+    display:flex ;
+    width:100%;
+    height: 400px;
+    background-color: white;
+    justify-content: space-around;
+   
+}
+.bigdiv-1 {
+    color: black;
+    padding: 50px;
+    margin-left: 40px;
+}
+.bigdiv-1 p{
+    width: 70%;
+    padding-top:15px ;
+   
+}
+.bigdiv-2 {
+    padding: 40px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigdiv-2 img{
+    padding-left: 50px;
+     width:50x;
+     height: 50px;
+ }
+.bigdiv-2 {
+   width: 80%;
+}
+.bigdiv-2 h2{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}

@@ -1,0 +1,37 @@
+.projects{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+  .projects img{
+    width:350px;
+    height:180px;
+    padding-left: 20px;
+  }
+  .projects img:hover{
+    cursor:pointer;
+    transform: scale(1.010);
+  
+  }
+  .overlay {
+    background: linear-gradient(90deg,
+    rgba(9, 10, 30, 0.9),
+    rgba(80, 128, 173, 0.9));
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects:hover .overlay {
+    opacity: 1;
+  }

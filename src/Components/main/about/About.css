@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #331C52;
+   height: 400px;
+   
+  }
+  .main h3{
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+  }
+  .main h1{
+    color:#9073B6;
+    font-size: 40px;
+    width: 100%;
+    font-weight: bolder;
+    
+  }
+  .main h2{
+    margin-top: 10px;
+    color: white;
+  }
+  .main-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+  
+    
+  }
+  .main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-text h1,.main-text h2{
+    margin-bottom: 1px;
+    padding-left: 8px;
+  }
+  .main-text p{
+    width: 90%;
+    margin-bottom: 1px;
+    
+   
+  }
+
+
+  .main-text .links a svg{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
